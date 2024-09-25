@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgba(3, 3, 134, 0.826);
+    width: 25%;
+    font-family:sans-serif;
+    height: 100vh;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85%;
+}
+.container{
+    display: flex;
+}
+/* padding means div ke 4 sides corner se space */
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: white;
+   margin-left: 25px;
+   font-size: 45px;
+}
+.education{
+    height: 480px;
+    width: 60%;
+    background-color: rgb(183, 178, 178);
+    margin-left: 250px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+.education h1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.education ul{
+    margin-left: 57px;
+    margin-top: 14px
+}
+.education h2{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.education ul li{
+    margin-left: 57px;
+    margin-top: 14px;
+    font-size: 19px;
+    
+}
+.education p{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.education table{
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}

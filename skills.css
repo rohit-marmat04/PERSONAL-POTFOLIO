@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgba(3, 3, 134, 0.826);
+    width: 25%;
+    font-family:sans-serif;
+    height: 100vh;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85%;
+}
+.container{
+    display: flex;
+}
+/* padding means div ke 4 sides corner se space */
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: white;
+   margin-left: 25px;
+   font-size: 45px;
+}
+.skills{
+    height: 480px;
+    width: 520px;
+    background-color: rgb(183, 178, 178);
+    margin-left: 310px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+.skills h1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.skills ul{
+    margin-left: 57px;
+    margin-top: 14px;
+    font-weight: bold;
+}
+.skills h2{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.skills ul li{
+    margin-left: 57px;
+    margin-top: 14px;
+    font-size: 19px;
+    font-size: 20px;
+}

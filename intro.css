@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgba(3, 3, 134, 0.826);
+    width: 25%;
+    font-family:sans-serif;
+    height: 100vh;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85%;
+}
+.container{
+    display: flex;
+}
+/* padding means div ke 4 sides corner se space */
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: white;
+   margin-left: 25px;
+   font-size: 45px;
+}
+/* info container mai margin use kiya hai infocontainer div ko center mai lane ke liye. */
+.infocontainer{
+    /* background-color: rgb(130, 50, 50); */
+    height: 70vh;
+    width: 80%;
+    margin: 144px auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+.divinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 8%;
+    font-family: "Merriweather", serif;
+}
+.divpic img{
+    width: 550px;
+    height: 70vh;
+    padding-left: 25%;
+   
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 45px;
+}
+.about{
+    font-size: 20px;
+
+}
+.buttons{
+    margin-top: 30px;
+    
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    background-color: rgba(11, 11, 234, 0.733);
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 4px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.introcontainer{
+    font-family: sans-serif;
+    background-color: white;
+    height: 100%;
+    
+    
+}
+.firstdiv{
+    background-color: rgb(183, 178, 178);
+    height: 250px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.firstdiv h1{
+    text-align: center;
+    padding-top: 18px;
+    
+
+}
+.firstdiv p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.seconddiv{
+    background-color: rgb(183, 178, 178);
+    height: 200px;
+    width: 600px;
+    margin-left: 570px;
+    border-radius: 10px;
+
+}
+.seconddiv p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.seconddiv h1{
+    text-align: center;
+    padding-top: 18px;
+    
+   
+
+}
+.thirddiv{
+    background-color: rgb(183, 178, 178);
+    height: 200px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.thirddiv h1{
+    text-align: center;
+    padding-top: 18px;
+}
+.thirddiv p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
